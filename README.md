@@ -1,0 +1,1 @@
+`s3cmd put -P --guess-mime-type --recursive ./ s3://www.driedtoast.com`
