@@ -1,0 +1,22 @@
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-cloud"></i>{{ i18n "experiences" }}</h2>
+
+                {{ range where .Pages "Section" "experiences" }}
+                {{ range .Pages.ByDate.Reverse  }}
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="company">{{ .Title }}</div>
+                        <div class="upper-row">
+                            <h3 class="job-title">{{ .Params.position }}</h3>
+                            <div class="time">{{ .Params.dates }}</div>
+                        </div><!--//upper-row-->
+                        
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>{{ .Content }}</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+				{{ end }}
+                {{ end }}
+            </section><!--//section-->

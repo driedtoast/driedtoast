@@ -1,3 +1,216 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "driedtoast | Daniel Marchant"
+theme = "hugo-orbit-tweak-theme"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = ""
+    author = "Daniel Marchant"
+
+# Theme styles
+    styles = "styles.css"
+
+# Sidebar sections
+    # Profile section
+    [params.profile]
+        name = "Daniel Marchant"
+        tagline = "Architect / Engineer"
+        avatar = "logosmall.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto:driedtoast@email.com"
+        title = "dan@driedtoast.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+17062011241"
+        title = "+17062011241"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//www.driedtoast.com"
+        title = "driedtoast.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/dmarchant"
+        title = "linkedin.com/in/dmarchant"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/driedtoast"
+        title = "github.com/driedtoast"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/driedtoast"
+        title = "@driedtoast"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BFA"
+        college = "American Intercontinental University"
+        dates = ""
+
+    # Languages section
+    [params.language]
+        enable = false
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+    # Interests section
+    [params.interests]
+        enable = false
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Art"
+
+        [[params.interests.list]]
+        interest = "Snowboarding"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+        [[params.interests.list]]
+        interest = "Farming"
+
+        [[params.interests.list]]
+        interest = "Learning"
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Java"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "80%"
+                
+        [[params.skills.list]]
+        skill = "Kotlin"
+        level = "80%"
+        
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Javascript"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "React"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Typescript"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "sass"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Rust"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Istio & Envoy"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Kubernetes & Docker"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Postgres & Oracle"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Web Components"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Mysql"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Rabbit MQ"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "LDAP"
+        level = "80%" 
+
+        [[params.skills.list]]
+        skill = "Redis"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Mongo Db"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Jboss & Tomcat & Jetty"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "git"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "lucene"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "EC2 & S3"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Dynamo DB"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Sagemaker"
+        level = "80%"
