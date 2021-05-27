@@ -1,7 +1,7 @@
             <section class="section experiences-section">
                 <h2 class="section-title"><i class="fa fa-cloud"></i>{{ i18n "experiences" }}</h2>
 
-                {{ range where .Pages "Section" "experiences" }}
+                {{ range where .Site.Pages "Section" "experiences" }}
                 {{ range .Pages.ByDate.Reverse  }}
 
                 <div class="item">
